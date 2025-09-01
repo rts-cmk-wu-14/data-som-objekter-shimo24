@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #222;
+}
+
+section {
+  padding: 40px;
+}
+
+/* Hero */
+#hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero img.hero-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.hero-content {
+  position: absolute;
+  left: 50px;
+  background: white;
+  padding: 20px;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+}
+
+.hero-content h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 14px;
+  color: #555;
+}
+
+.hero-content button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #f56a6a;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Services */
+.services {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.service-card {
+  flex: 1;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.service-card img {
+  width: 100px;
+}
+
+.service-card a {
+  display: block;
+  margin-top: 10px;
+  color: #f56a6a;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Facilities */
+.facilities h2 {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.facility-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.facility-card {
+  text-align: center;
+}
+
+.facility-card img {
+  width: 40px;
+  margin-bottom: 10px;
+}
+
+.facility-card a {
+  color: #f56a6a;
+  font-weight: bold;
+  display: block;
+  margin-top: 8px;
+}
+
+/* Sites */
+.sites {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.sites-intro {
+  flex: 1;
+}
+
+.sites-intro h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.btn-start {
+  background: #f56a6a;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sites-list {
+  flex: 2;
+  display: flex;
+  gap: 20px;
+}
+
+.site-card {
+  flex: 1;
+}
+
+.site-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.site-card a {
+  color: #f56a6a;
+  font-weight: bold;
+  text-decoration: none;
+}
